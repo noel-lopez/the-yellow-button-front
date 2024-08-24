@@ -1,50 +1,29 @@
-# React + TypeScript + Vite
+# The Yellow Button
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **The Yellow Button**! 🎉
 
-Currently, two official plugins are available:
+Ever wondered what could be the most thrilling thing in life? Neither did I, so I created **The Yellow Button**. And here it is—a yellow button. Yes, just a yellow button. Anything more? Exactly. That’s it!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This app was **inspired by KuroJam 2024**, a hackathon with the random theme of "Something Yellow." Although I didn't participate in the hackathon due to time constraints, I was motivated by the theme and decided to create something fun and utterly simple.
 
-## Expanding the ESLint configuration
+## What Does This Button Do?
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Press the Yellow Button**. That’s all you need to do.
+2. Every time you press the button, your counter goes up. Congratulations! 🎉
+3. But wait, there’s a twist: there’s a small chance your counter might reset to 0. It’s like a gamble, but with no prizes or rewards, just a yellow button. 😆
 
-- Configure the top-level `parserOptions` property like this:
+## Attention!
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+The chances of reaching the highest score of 99 are so minuscule that you’d have better luck finding a unicorn in your backyard. 🦄✨ In real terms, the probability is 0.00000000000000000000000000000000000000000093, or one in 1 tredecillion. Yes, you read that right—tredecillion! 🌌
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## How It Works
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+This yellow button is here to entertain you with its sleek design and extremely limited functionality. But don’t worry, it’s a unique experience with absolutely no stress involved. What more could you ask for? 🤷‍♂️
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Contributions
+
+There’s not much to do here, but if you have ideas to improve the yellow button experience, we’d love to hear your suggestions! Just remember, the yellow button is what it is. 😉
+
+---
+
+Enjoy pressing the yellow button and keep your expectations at their lowest! 🚀
