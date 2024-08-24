@@ -8,13 +8,24 @@ Welcome to **The Yellow Button**! 🎉
 
 Ever wondered what could be the most thrilling thing in life? Neither did I, so I created **The Yellow Button**. And here it is—a yellow button. Yes, just a yellow button. Anything more? Exactly. That’s it!
 
-This app was **inspired by KuroJam 2024**, a hackathon with the random theme of "Something Yellow." Although I didn't participate in the hackathon due to time constraints, I was motivated by the theme and decided to create something fun and utterly simple.
+This app was **inspired by KuroJam 2024**, a hackathon with the random theme of "Something Yellow." I managed to participate in the Jam, and although the project was developed in a rush, I wanted to add a touch of humor and simplicity to the theme.
 
 ## What Does This Button Do?
 
 1. **Press the Yellow Button**. That’s all you need to do.
 2. Every time you press the button, your counter goes up. Congratulations! 🎉
 3. But wait, there’s a twist: there’s a small chance your counter might reset to 0. It’s like a gamble, but with no prizes or rewards, just a yellow button. 😆
+
+## Future Features
+
+Currently, **The Yellow Button** doesn’t save player progress in any way, not even in local storage. This choice is intentional to prevent cheating and keep the experience straightforward. However, I have exciting plans for future updates:
+
+- **Backend Implementation**: To handle player progress and make the game more engaging, I plan to implement a backend.
+    - **Social Media Login**: Log in with social media accounts to save your progress and track your achievements.
+    - **Leaderboard**: Compete with other players and see who has the highest score on the leaderboard.
+    - **Fun Messages and Data**: Occasionally, the bottom of the screen will display funny messages to add a bit of humor to the app. Additionally, I plan to show interesting data retrieved from the backend in these messages, such as the total number of times all players have pressed the button.
+
+Please note, this project was created in just about half an hour for the Jam. I aimed to bring a bit of humor to the event, and I’m excited to enhance it further in the future!
 
 ## Attention!
 
