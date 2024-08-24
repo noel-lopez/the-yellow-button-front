@@ -1,5 +1,9 @@
 # The Yellow Button
 
+<p align="center">
+<img src="./banner.png" alt="project image">
+</p>
+
 Welcome to **The Yellow Button**! 🎉
 
 Ever wondered what could be the most thrilling thing in life? Neither did I, so I created **The Yellow Button**. And here it is—a yellow button. Yes, just a yellow button. Anything more? Exactly. That’s it!
