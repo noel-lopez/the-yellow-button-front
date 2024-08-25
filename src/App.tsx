@@ -63,7 +63,7 @@ function App() {
             <button
                 onClick={handleClick}
                 className={`flex justify-center items-center w-[20vw] h-[20vw] max-w-[250px] max-h-[250px] min-w-[100px] min-h-[100px] bg-[#ffd700] rounded-full transition-all duration-150 ease-out 
-                    ${isAnimating ? 'translate-y-1 shadow-none' : 'translate-y-0 shadow-[0_8px_0_#b58900]'}
+                    ${isAnimating ? 'translate-y-[10px] md:translate-y-4 shadow-none' : 'translate-y-0 shadow-[0_10px_0_#b58900] md:shadow-[0_16px_0_#b58900]'}
                     ${showRipple ? 'button-ripple animate' : 'button-ripple'}
                 `}
             >
