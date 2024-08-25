@@ -60,12 +60,12 @@ function App() {
             </div>
             <button
                 onClick={handleClick}
-                className={`flex justify-center items-center w-[20vw] h-[20vw] max-w-[250px] max-h-[250px] min-w-[100px] min-h-[100px] bg-[#ffd700] rounded-full transition-all duration-150 ease-out 
-                    ${isAnimating ? 'translate-y-[10px] md:translate-y-4 shadow-none' : 'translate-y-0 shadow-[0_10px_0_#b58900] md:shadow-[0_16px_0_#b58900]'}
+                className={`flex justify-center items-center w-[20vw] h-[20vw] max-w-[250px] max-h-[250px] min-w-[200px] min-h-[200px] bg-[#ffd700] rounded-full transition-all duration-150 ease-out 
+                    ${isAnimating ? 'translate-y-3 lg:translate-y-4 shadow-none' : 'translate-y-0 shadow-[0_12px_0_#b58900] lg:shadow-[0_16px_0_#b58900]'}
                     ${showRipple ? 'button-ripple animate' : 'button-ripple'}
                 `}
             >
-                <span className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#8c6b00]">
+                <span className="text-6xl lg:text-7xl text-[#8c6b00]">
                     {currentScore}
                 </span>
             </button>
