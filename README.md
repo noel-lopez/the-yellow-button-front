@@ -1,44 +1,40 @@
 # The Yellow Button
 
 <p align="center">
-<img src="./banner.png" alt="project image">
+<img src="./banner.png" alt="imagen del proyecto">
 </p>
 
-Welcome to **The Yellow Button**! 🎉
+¡Bienvenido a **The Yellow Button**! 🎉
 
-Ever wondered what could be the most thrilling thing in life? Neither did I, so I created **The Yellow Button**. And here it is—a yellow button. Yes, just a yellow button. Anything more? Exactly. That’s it!
+¿Te has preguntado alguna vez cuál es la cosa más emocionante del mundo? Yo tampoco, así que he creado **The Yellow Button** 😂. Y ahí lo tienes... un botón amarillo. Sí, solo un botón amarillo. ¿Querías algo más? Pues eso es todo, ¡así de simple!
 
-This app was **inspired by KuroJam 2024**, a hackathon with the random theme of "Something Yellow." I managed to participate in the Jam, and although the project was developed in a rush, I wanted to add a touch of humor and simplicity to the theme.
+Esta app nació gracias a **KuroJam 2024**, una hackathon con la temática random de "Algo Amarillo". Aunque el proyecto fue un sprint de última hora, quería meterle un toque de humor y simplicidad al evento.
 
-## What Does This Button Do?
+## ¿Qué Hace Este Botón?
 
-1. **Press the Yellow Button**. That’s all you need to do.
-2. Every time you press the button, your counter goes up. Congratulations! 🎉
-3. But wait, there’s a twist: there’s a small chance your counter might reset to 0. It’s like a gamble, but with no prizes or rewards, just a yellow button. 😆
+1. **Dale click**. Eso es todo.
+2. Cada vez que lo pulsas, tu contador sube. ¡Congrats! 🎉
+3. Pero ojo, que tiene truco: hay una pequeña posibilidad de que tu contador se reinicie a 0. Es como una mini apuesta, pero sin premios ni recompensas, solo un botón amarillo. 😆 Compite con tus amigos a ver quién consigue el número más alto!
 
-## Future Features
+## Funciones Futuras
 
-Currently, **The Yellow Button** doesn’t save player progress in any way, not even in local storage. This choice is intentional to prevent cheating and keep the experience straightforward. However, I have exciting plans for future updates:
+Por ahora, **The Yellow Button** no guarda tu progreso de ninguna forma, siquiera en el local storage. Esta decisión ha sido intencionada para evitar trampas y mantenerlo simple de momento. Pero tengo planes para ampliar este proyecto en el futuro:
 
-- **Backend Implementation**: To handle player progress and make the game more engaging, I plan to implement a backend.
-    - **Social Media Login**: Log in with social media accounts to save your progress and track your achievements.
-    - **Leaderboard**: Compete with other players and see who has the highest score on the leaderboard.
-    - **Fun Messages and Data**: Occasionally, the bottom of the screen will display funny messages to add a bit of humor to the app. Additionally, I plan to show interesting data retrieved from the backend in these messages, such as the total number of times all players have pressed the button.
+- **Implementación de Backend**: Añadiré un backend para hacer el juego más interesante.
+    - **Inicio de Sesión con Redes Sociales**: Podrás iniciar sesión con tus cuentas de redes sociales para guardar tu progreso.
+    - **Tabla de Clasificación**: Compite con otros y mira quién ha llegado al número más alto.
+    - **Mensajes Divertidos y Datos**: A veces, la parte inferior de la pantalla mostrará mensajes graciosos para darle un toque de humor a la app. También quiero mostrar datos curiosos proporcionados por el backend, como cuántas veces en total han presionado el botón todos los jugadores.
 
-Please note, this project was created in just about half an hour for the Jam. I aimed to bring a bit of humor to the event, and I’m excited to enhance it further in the future!
+Siento si a alguien no le gusta la simplicidad, pero esto se hizo en apenas media hora para la Jam 😅. Mi misión era hacerte reír un poco, ¡y espero que esto llegue a ser un proyecto más grande en el futuro!
 
-## Attention!
+## ¡Ojo!
 
-The chances of reaching the highest score of 99 are so minuscule that you’d have better luck finding a unicorn in your backyard. 🦄✨ In real terms, the probability is 0.00000000000000000000000000000000000000000093, or one in 1 tredecillion. Yes, you read that right—tredecillion! 🌌
+Las probabilidades de llegar a la puntuación máxima de 99 son tan pequeñas que sería más fácil encontrar un unicornio en tu jardín. 🦄✨ En números, la probabilidad es de 0.00000000000000000000000000000000000000000093, o una en 1 tredecillón. Sí, has leído bien... tredecillón 🌌
 
-## How It Works
+## Cómo Funciona
 
-This yellow button is here to entertain you with its sleek design and extremely limited functionality. But don’t worry, it’s a unique experience with absolutely no stress involved. What more could you ask for? 🤷‍♂️
+The Yellow Button existe para entretenerte con su diseño simple y funcionalidad súper limitada. Pero oye, es una experiencia sin estrés. ¿Qué más puedes pedir? 🤷‍♂️
 
-## Contributions
+## Contribuciones
 
-There’s not much to do here, but if you have ideas to improve the yellow button experience, we’d love to hear your suggestions! Just remember, the yellow button is what it is. 😉
-
----
-
-Enjoy pressing the yellow button and keep your expectations at their lowest! 🚀
+Aquí no hay mucho que hacer, pero si tienes ideas para mejorar la experiencia del botón amarillo, ¡nos encantaría escuchar tus sugerencias! Solo recuerda, The Yellow Button es lo que es. 😉
