@@ -1,5 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "ClashDisplay";
+    src: url('./assets/fonts/ClashDisplay-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "ClashDisplay";
+    src: url('./assets/fonts/ClashDisplay-Medium.woff2') format('woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "ClashDisplay";
+    src: url('./assets/fonts/ClashDisplay-Semibold.woff2') format('woff2');
+    font-weight: 600;
+}
+
+body {
+    @apply font-clash font-semibold;
+}

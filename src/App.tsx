@@ -46,11 +46,11 @@ function App() {
     return (
         <div className="flex flex-col justify-center items-center h-screen w-scren bg-[#242424]">
             <div className="text-center mb-20 mt-[-80px]">
-                <p className="text-2xl font-bold text-[#d4d4d4] font-sans mb-2">
-                    Max <span className="font-pacifico text-3xl text-[#ffffff]">{highscore}</span>
+                <p className="text-2xl text-[#d4d4d4] font-sans mb-2">
+                    Max <span className="text-3xl text-[#ffffff] pl-2">{highscore}</span>
                 </p>
-                <p className="text-2xl font-bold text-[#d4d4d4] font-sans">
-                    Total <span className="font-pacifico text-3xl text-[#ffffff]">{totalClicks}</span>
+                <p className="text-2xl text-[#d4d4d4] font-sans">
+                    Total <span className="text-3xl text-[#ffffff] pl-2">{totalClicks}</span>
                 </p>
             </div>
             <button
@@ -59,7 +59,7 @@ function App() {
                     ${isAnimating ? 'translate-y-1 shadow-none' : 'translate-y-0 shadow-[0_8px_0_#b58900]'}
                 `}
             >
-                <span className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#8c6b00] font-pacifico pb-[0.5vw]">
+                <span className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#8c6b00]">
                     {count}
                 </span>
             </button>

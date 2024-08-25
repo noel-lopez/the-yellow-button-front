@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'pacifico': ['Pacifico', 'ui-sans-serif', 'system-ui']
+      'clash': ['ClashDisplay', 'ui-sans-serif', 'system-ui']
     },
     extend: {},
   },
