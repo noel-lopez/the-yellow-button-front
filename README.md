@@ -29,13 +29,24 @@ Por ahora, **The Yellow Button** no guarda tu progreso de ninguna forma, siquier
 
 Siento si a alguien no le gusta la simplicidad, pero esto se hizo en apenas media hora para la Jam 😅. Mi misión era hacerte reír un poco, ¡y espero que esto llegue a ser un proyecto más grande en el futuro!
 
-## ¡Ojo!
-
-Las probabilidades de llegar a la puntuación máxima de 99 son tan pequeñas que sería más fácil encontrar un unicornio en tu jardín. 🦄✨ En números, la probabilidad es de 0.00000000000000000000000000000000000000000093, o una en 1 tredecillón. Sí, has leído bien... tredecillón 🌌
-
 ## Cómo Funciona
 
 The Yellow Button existe para entretenerte con su diseño simple y funcionalidad súper limitada. Pero oye, es una experiencia sin estrés. ¿Qué más puedes pedir? 🤷‍♂️
+
+## ¿Cuáles Son las Probabilidades de Reset?
+
+Cada vez que haces clic, hay una posibilidad de que tu puntuación se reinicie a 0. La probabilidad de un reinicio aumenta con cada clic, dependiendo de tu puntuación actual. 
+
+- En tu primer clic, hay un 0% de probabilidad de reinicio.
+- En tu segundo clic, es del 1%.
+- En tu tercer clic, es del 2%.
+- Y así sucesivamente...
+
+Aunque estos porcentajes parecen pequeños, hay un truco: para alcanzar un número alto de clics, tienes que superar todas las probabilidades de reinicio anteriores. Aquí es donde entra en juego la "probabilidad acumulada". Por ejemplo, la probabilidad de llegar al clic 20 sin reiniciar es mucho más baja de lo que parece porque tienes que esquivar la probabilidad de reinicio de los clics 1 al 19. A pesar de que el clic del 19 al 20 sólo tenga un 19% de probabilidades de reset, no es tan fácil!
+
+Las probabilidades de llegar a 99 de puntuación son tan pequeñas que sería más fácil encontrar un unicornio en tu jardín. 🦄✨ En números, la probabilidad es de 0.00000000000000000000000000000000000000000093, o una en 1 tredecillón. Sí, has leído bien... tredecillón 🌌
+
+Así que, buena suerte, y recuerda, es solo un botón amarillo.
 
 ## Contribuciones
 
