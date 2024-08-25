@@ -6,6 +6,7 @@ function App() {
     const [totalClicks, setTotalClicks] = useState(0);
     const [isAnimating, setIsAnimating] = useState(false);
     const [isDisabled, setIsDisabled] = useState(false);
+    const [showRipple, setShowRipple] = useState(false);
 
     const calculateFailureProbability = (n: number) => {
         let probability = 1;
@@ -26,6 +27,7 @@ function App() {
 
             if (randomValue < resetProbability) {
                 setCount(0);
+                triggerResetAnimation();
             } else {
                 const newCount = count + 1;
                 setCount(newCount);
@@ -43,6 +45,11 @@ function App() {
         }
     };
 
+    const triggerResetAnimation = () => {
+        setShowRipple(true);
+        setTimeout(() => setShowRipple(false), 600);
+    }
+
     return (
         <div className="flex flex-col justify-center items-center h-screen w-scren bg-[#242424]">
             <div className="text-center mb-20 mt-[-80px]">
@@ -57,6 +64,7 @@ function App() {
                 onClick={handleClick}
                 className={`flex justify-center items-center w-[20vw] h-[20vw] max-w-[250px] max-h-[250px] min-w-[100px] min-h-[100px] bg-[#ffd700] rounded-full transition-all duration-150 ease-out 
                     ${isAnimating ? 'translate-y-1 shadow-none' : 'translate-y-0 shadow-[0_8px_0_#b58900]'}
+                    ${showRipple ? 'button-ripple animate' : 'button-ripple'}
                 `}
             >
                 <span className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#8c6b00]">
