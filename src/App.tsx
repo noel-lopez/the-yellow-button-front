@@ -1,19 +1,17 @@
 import { useState } from 'react';
 
 function App() {
-    const [count, setCount] = useState(0);
+    const [currentScore, setCurrentScore] = useState(0);
     const [highscore, setHighscore] = useState(0);
     const [totalClicks, setTotalClicks] = useState(0);
     const [isAnimating, setIsAnimating] = useState(false);
     const [isDisabled, setIsDisabled] = useState(false);
     const [showRipple, setShowRipple] = useState(false);
 
-    const calculateFailureProbability = (n: number) => {
-        let probability = 1;
-        for (let i = 1; i <= n; i++) {
-            probability *= (100 - i) / 100;
-        }
-        return 1 - probability;
+    const calculateResetChance = (currentScore: number) => {
+        const successChance = (100 - currentScore) / 100;
+        const failureChance = 1 - successChance;
+        return failureChance;
     };
 
     const handleClick = () => {
@@ -22,15 +20,15 @@ function App() {
             setIsDisabled(true);
             setTotalClicks(totalClicks + 1);
 
-            const resetProbability = calculateFailureProbability(count);
+            const resetChance = calculateResetChance(currentScore);
             const randomValue = Math.random();
 
-            if (randomValue < resetProbability) {
-                setCount(0);
+            if (randomValue < resetChance) {
+                setCurrentScore(0);
                 triggerResetAnimation();
             } else {
-                const newCount = count + 1;
-                setCount(newCount);
+                const newCount = currentScore + 1;
+                setCurrentScore(newCount);
                 if (newCount > highscore) {
                     setHighscore(newCount);
                 }
@@ -68,7 +66,7 @@ function App() {
                 `}
             >
                 <span className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#8c6b00]">
-                    {count}
+                    {currentScore}
                 </span>
             </button>
         </div>
