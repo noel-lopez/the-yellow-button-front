@@ -1,5 +1,7 @@
 # The Yellow Button
 
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/noel-lopez/the-yellow-button-front/blob/main/README.md)
+
 <p align="center">
 <img src="./banner.png" alt="project image">
 </p>

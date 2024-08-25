@@ -1,10 +1,12 @@
 # The Yellow Button
 
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/noel-lopez/the-yellow-button-front/blob/main/README.en.md)
+
 <p align="center">
 <img src="./banner.png" alt="imagen del proyecto">
 </p>
 
-¡Bienvenido a **The Yellow Button**! 🎉
+¡Bienvenido! 🎉
 
 ¿Te has preguntado alguna vez cuál es la cosa más emocionante del mundo? Yo tampoco, así que he creado **The Yellow Button** 😂. Y ahí lo tienes... un botón amarillo. Sí, solo un botón amarillo. ¿Querías algo más? Pues eso es todo, ¡así de simple!
 
